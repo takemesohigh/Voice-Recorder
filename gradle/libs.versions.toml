@@ -1,8 +1,8 @@
 [versions]
 #jetbrains
-kotlin = "1.9.0"
+kotlin = "1.9.10"
 #KSP
-ksp = "1.9.0-1.0.12"
+ksp = "1.9.10-1.0.13"
 #AndroidX
 androidx-constraintlayout = "2.1.4"
 androidx-documentfile = "1.0.1"
@@ -12,7 +12,7 @@ eventbus = "3.3.1"
 #Room
 room = "2.6.0-alpha02"
 #Simple tools
-simple-commons = "8e7dd4508e"
+commons = "1.0.0"
 #AudioRecordView
 audiorecordview = "1.0.4"
 #TAndroidLame
@@ -20,7 +20,7 @@ tandroidlame = "1.1"
 #AutofitTextView
 autofittextview = "0.2.1"
 #Gradle
-gradlePlugins-agp = "8.1.1"
+gradlePlugins-agp = "8.1.2"
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
@@ -41,7 +41,7 @@ androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 #Simple Mobile Tools
-simple-tools-commons = { module = "com.github.SimpleMobileTools:Simple-Commons", version.ref = "simple-commons" }
+commons = { module = "com.github.takemesohigh:Commons", version.ref = "commons" }
 #EventBus
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
 #AudioRecordView
